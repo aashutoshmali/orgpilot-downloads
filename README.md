@@ -49,6 +49,7 @@ If you work on Salesforce, your day probably looks like this:
 - **Favorites:** click ☆ on any record, list, report, Setup page or tool. Your favorites from every org are one click away in Explore → Favorites and in Ctrl/Cmd + K.
 - OrgPilot updates itself: when a new version is out you'll see a short note at the top.
 - Tabs you haven't used for a while go to sleep to save memory, and wake up when you click them.
+- Zoom Salesforce pages in or out with Ctrl/Cmd + and Ctrl/Cmd -, like in a browser. Each org remembers its zoom.
 - Optional banner per org (for example "PRODUCTION: careful") so you always know where you are.
 
 ### 🔎 Jump anywhere instantly
@@ -99,7 +100,8 @@ Just ask, and OrgPilot does it in your current org:
 | *"Show open opportunities over 50k closing this quarter"* | Writes the SOQL, runs it and shows the results with the query |
 | *"Scan my flows for problems"* | Runs the Flow Scanner and lists what to fix first |
 | *"Why did the last Apex job fail?"* | Reads recent debug logs, finds the errors and explains them |
-| *"Open the newest Account"* | Opens the record in a tab |
+| *"Open the newest case"* | Opens the record in a tab |
+| *"Open the Lead Routing flow"* | Opens it in Flow Builder (also Apex classes, triggers and objects by name) |
 | *"Set the Industry of Acme to Energy"* | Shows old and new value and waits for your approval |
 
 ---
